@@ -4,7 +4,7 @@
   
 
 ## Description 🌠
-A  simple calculator in GNOME style 
+A  simple web based calculator in GNOME desktop style  :) 
 > **GNOME** is a graphical user interface (GUI) and set of computer desktop  applications for users of the Linux operating system.
 > -  [Gnome  Desktop  Project](https://www.gnome.org/)
 
