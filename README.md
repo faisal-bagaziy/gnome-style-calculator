@@ -1,5 +1,5 @@
 #  GNOME Style calculator
-#### Tech  used  to  build this   
+## Tech  used  to  build this   
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)  ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)   ![Obsidian](https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white)
   
 -----
@@ -16,13 +16,13 @@ if  you  want to  edit  GNOME  style calculator , you should have a basic unders
 You can download Node.js and npm from the official website: https://nodejs.org/
 ---
 
-#### Work Done ✅
+## Work Done ✅
 ---
-#### Future Work  ❎
+## Future Work  ❎
 - [ ] Implement the UI design.
 - [ ] Implement the mathematical functionality.
 - [ ] Implement  Unit testing.
 - [ ] add a equations log in the ui, Ex(if user did 3+3 =  9  then 3-2 =1 then 3+3 should also appear in the log -->  this  log in  the UI).
 ---
-#### The Design  🌆
-[![image.png](https://i.postimg.cc/bwL7RCzH/image.png)](https://postimg.cc/nXjSF19C)
+## The Design  🌆
+![image.png](https://i.postimg.cc/bwL7RCzH/image.png)
