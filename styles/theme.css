@@ -1,3 +1,11 @@
 :root{
   --bg-color-body: 215,219,220;
+  --bg-color-log: #3F3F3F;
+  --bg-color-equation: #353535;
+  --btn-color-operator: #393939;
+  --btn-color-number: #505050;
+  --btn-color-equal: #E66100;
+  --bg-color-entries: #242424;
+  --btn-color-number-hover: #5C5C5C;
+  --btn-color-equal-hover: #E68A00;
 }
