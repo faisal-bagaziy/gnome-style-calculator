@@ -27,7 +27,7 @@ main{
 
 .enteries{
   background-color: var(--bg-color-entries);
-  height: 40%;
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
