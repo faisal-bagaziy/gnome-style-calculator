@@ -12,7 +12,7 @@ html,body{
 }
 
 main{
-  width: 65vh;
+  width: 45vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -119,5 +119,7 @@ main{
 @media (max-width: 480px) {
   main {
     width: 370px;
+    height: 75vh;
+
   }
 }
