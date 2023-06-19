@@ -12,8 +12,8 @@ html,body{
 }
 
 main{
-  width: 575px;
-  height: 100%;
+  width: 65vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   margin: -1px
