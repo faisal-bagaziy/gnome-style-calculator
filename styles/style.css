@@ -117,9 +117,15 @@ main{
 }
 
 @media (max-width: 480px) {
+   body{
+    align-items: flex-start;
+    height: 85vh;
+
+   }
+
   main {
     width: 370px;
-    height: 75vh;
+    height: 85vh;
 
   }
 }
