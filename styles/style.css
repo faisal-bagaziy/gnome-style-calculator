@@ -3,11 +3,12 @@
   font-family: Arial, sans-serif;
 }
 
-body{
+html,body{
   background-color: rgb( var(--bg-color-body) );
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%
 }
 
 main{
