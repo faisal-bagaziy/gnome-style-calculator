@@ -50,6 +50,7 @@ clear.addEventListener("click", function() {
   k=0;
 });
 
+//add to equation array
 function addToEquation(value){
   if(isNaN(value) && value !== "."){
     equation.push(value);
@@ -61,6 +62,7 @@ function addToEquation(value){
   }
 }
 
+//delete from equation array
 function deleteFromEquation() {
     if(equation[equation.length-1].length > 1){
       sliceThis =  equation[equation.length-1];
@@ -121,7 +123,7 @@ function parseToPostFix() {
    }
     console.log(outputQueue);
     console.log(inputStack);
-    evaluatePostfix(outputQueue);
+   return  evaluatePostfix(outputQueue);
    
 }
 
@@ -176,14 +178,53 @@ function evaluatePostfix(postfixEquation){
         }
     )
     console.log("im in evalute: ")
-    console.log(operandStack);
+    return operandStack.pop();
 
 }
+//when equals is clicked
 const equals = document.getElementById("equal");
 equals.addEventListener("click", function() {
     equation = equation.filter(function(element){
         return element.trim() !== "";
     });
     console.log(equation);
-  parseToPostFix();
+    const evaluation = parseToPostFix();
+    moveTolog(evaluation);
+    replaceEntered(evaluation);
 });
+
+function moveTolog(evaluation){
+    let log = document.querySelector(".log");
+    let newDiv = document.createElement("div");
+    newDiv.classList.add("logChild");
+
+    let  equationHolder = document.createElement("div");
+    equationHolder.classList.add("equationHolder");
+    
+    for (let i = 0; i < equation.length; i++) {
+        let newItem = document.createElement("p");
+        newItem.textContent = equation[i];
+        equationHolder.appendChild(newItem);
+    }
+    newDiv.appendChild(equationHolder);
+    
+    let equalSign = document.createElement("div");
+    equalSign.textContent = "=";
+    newDiv.appendChild(equalSign);
+
+    let result = document.createElement("div");
+    result.textContent =  evaluation;
+    newDiv.appendChild(result);
+
+    log.appendChild(newDiv);
+}
+
+function replaceEntered(evaluation){
+    let entered = document.querySelector(".entered");
+    let result = document.createElement("div");
+    result.textContent =  evaluation;
+    entered.replaceChildren(result);
+
+    equation = [`${evaluation}`];
+    console.log(equation);
+}
