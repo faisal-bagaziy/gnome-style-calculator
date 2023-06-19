@@ -15,11 +15,10 @@ if  you  want to  edit  GNOME  style calculator , you should have a basic unders
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js
 You can download Node.js and npm from the official website: https://nodejs.org/
 
-
+## Designing the solution 
+- [Calculator Logic](./calculatorLogic.md)
 
 ## Work Done ✅
-
-## Future Work  ❎
 - [ ] Implement the UI design.
 - [ ] Implement the mathematical functionality.
     - Add.
@@ -31,7 +30,10 @@ You can download Node.js and npm from the official website: https://nodejs.org/
     - Power of 2.
     - Pi.
 - [ ] Implement  Unit testing.
-- [ ] add a equations log in the ui, Ex(if user did 3+3 =  9  then 3-2 =1 then 3+3 should also appear in the log -->  this  log in  the UI).
+- [ ] add a equations log in the ui, Ex(if user did 3+3 =  9  then 3-2 =1 then 3+3 should also appear in the log -- this log is in the ui itslef
+
+## Future Work  ❎
 
 ## The Design  🌆
 ![image.png](https://i.postimg.cc/bwL7RCzH/image.png)
+
