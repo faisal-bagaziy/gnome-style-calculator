@@ -33,14 +33,14 @@ main{
 
 .enteries > *{
   border-radius: 10px;
-  font-size: calc(0.5vw + 0.5:vh + 1.5vmin);
+  font-size: calc(0.5vw + 0.5vh + 1.5vmin);
   font-weight: bolder;
   color: #fff;
   border: none;
   cursor: pointer;
 } 
 
-.operator{
+.input, #del, #clear{
   background-color: var(--btn-color-operator) ;
 }
 
@@ -48,13 +48,21 @@ main{
   background-color: var(--btn-color-number);
 }
 
-.equal{
+#equal{
   background-color: var(--btn-color-equal);
   grid-row: 4 / 6;
   grid-column: 5 / 6;
 }
 
-.enteries > .operator:hover {
+.enteries > .input:hover {
+  background: var(--btn-color-number); 
+}
+
+.enteries > #del:hover {
+  background: var(--btn-color-number); 
+}
+
+.enteries > #clear:hover {
   background: var(--btn-color-number); 
 }
 
@@ -62,7 +70,7 @@ main{
   background: var(--btn-color-number-hover); 
 }
 
-.enteries > .equal:hover {
+.enteries > #equal:hover {
   background: var(--btn-color-equal-hover); 
 }
 
@@ -74,7 +82,12 @@ main{
 }
 
 .entered{
-  background-color: var(--bg-color-equation);;
+  background-color: var(--bg-color-equation);
   flex: 0.5;
+  display: flex;
+  color: #fff;
+  font-size: calc(0.5vw + 0.5vh + 1.5vmin);
+  align-items: center;
+  padding: 2px;
 }
 
